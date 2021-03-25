@@ -2,7 +2,10 @@ let btn = document.querySelector("#ajax_btn");
 let res = document.querySelector("#result");
 let film = document.querySelector("#film");
 
-secretKey = 92837968;
+// if you want testing this programm, please write me (telegram: FrintskoV; FaceBook: https://www.facebook.com/profile.php?id=100010290371862)
+// or open this link ( http://www.omdbapi.com ) and take your own key
+
+secretKey = (someKey);
 api = "http://www.omdbapi.com/?i=tt3896198&apikey=" + secretKey;
 
 
